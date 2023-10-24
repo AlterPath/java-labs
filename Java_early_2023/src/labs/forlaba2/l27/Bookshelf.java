@@ -13,11 +13,11 @@ public class Bookshelf {
     }
     public void addBook(){
         Scanner source = new Scanner(System.in);
-        System.out.println("Введите автора, год издания, название и жанр книги:");
+        System.out.println("Введите автора, название, жанр книги и год издания:");
         String author = source.nextLine();
-        int year = source.nextInt();
         String name = source.nextLine();
         String genre = source.nextLine();
+        int year = source.nextInt();
         Book book = new Book(author, year, name, genre);
         books[i] = book;
         i++;
