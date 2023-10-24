@@ -41,5 +41,19 @@ public class Bookshelf {
         System.out.println("Самася древняя книга: ");
         System.out.println(latest.toString());
     }
+
+        public void compare(Bookshelf books) {
+            for (int i = books.length;i > 1; i-- ) {
+                if not(books[i].getyearOfPubl().isEmpty()) {
+                    for (int j = i - 1; j > -1; j--) {
+                        if (books[i].getYearOfPubl() < books[j].getYearOfPubl) {
+                            Book tempbook = books[i];
+                            books[i] = books[j];
+                            books[j] = tempbook;
+                        }
+                    }
+                }
+            }
+    });
 }
 
