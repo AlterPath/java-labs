@@ -35,3 +35,7 @@ Java, Swing, IntelliJ IDEA.
 ## License
 
 [MIT](LICENSE)
+
+---
+
+<sub>The labs were published on GitHub in December 2023. The early versions of labs 2.4–2.7 (October 2023) were moved here from a private repository in November 2026 together with their history, and the README was added at the same time.</sub>
